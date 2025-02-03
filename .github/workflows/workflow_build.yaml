@@ -1,5 +1,6 @@
 name: Publish Docker image in Docker Hub
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
