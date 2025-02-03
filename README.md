@@ -1,5 +1,7 @@
 # 📄 Lambda Function - Extrator de Texto PDF
 
+[![Publish Docker image in Docker Hub](https://github.com/maxsonferovante/recognition_lambda_fuction/actions/workflows/workflow_build.yaml/badge.svg)](https://github.com/maxsonferovante/recognition_lambda_fuction/actions/workflows/workflow_build.yaml)
+
 ## 📋 Sobre
 
 Função AWS Lambda que processa PDFs através de eventos SQS, extraindo texto e salvando em JSON no S3.
