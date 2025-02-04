@@ -12,6 +12,9 @@ ENV PYTHONUNBUFFERED=1
 # Define o diretório de trabalho
 WORKDIR /app
 
+# Instala o pacote shadow-utils para obter o comando useradd
+RUN dnf install -y shadow-utils
+
 # Cria um usuário não privilegiado para executar o aplicativo
 ARG UID=10001
 RUN useradd \
